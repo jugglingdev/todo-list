@@ -1,7 +1,21 @@
+/* RESET */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/* UTILITIES */
+
+.center {
+    text-align: center;
+}
+
+/* CUSTOM VARIABLES */
+
+:root {
+
 }
 
 body {
@@ -41,5 +55,35 @@ h1 {
     font-size: 36px;
 }
 
+/* FOOTER */
 
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+}
 
+footer p {
+    padding-top: .25em;
+}
+
+footer a:any-link {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: whitesmoke;
+    text-decoration: underline;
+}
+
+footer a:active {
+    color: whitesmoke;
+}
+
+footer img {
+    height: 1em;
+    width: 1em;
+}
