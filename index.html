@@ -6,7 +6,7 @@
     <title>Todo App</title>
     <link rel="stylesheet" href="./styles/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-    <script src="./scripts/app.js"></script>
+    <script src="./scripts/app.js" defer></script>
 </head>
 <body>
     <main class="todo-list-container">
@@ -15,10 +15,18 @@
         <form class="todo-form">
             <div class="form-top">
                 <input type="text" placeholder="Add your new todo">
-                <button class="addTodo">+</button>
+                <button class="addTodo" type="submit">+</button>
             </div>
 
-            <div class="form-items">
+            <div class="form-todos">
+                <ul>
+                    <li class="todo-item">
+                        <div class="todo-container">
+                            <p>Something</p>
+                            <img src="./assets/trashcan-light.png" alt="trashcan icon" width="20px" height="20px">
+                        </div>
+                    </li>
+                </ul>
             </div>
 
             <div class="form-bottom">

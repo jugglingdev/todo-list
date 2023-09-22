@@ -97,6 +97,41 @@ h1 {
     color: #fdfffe;
 }
 
+.form-todos {
+    width: 100%;
+}
+
+.form-todos ul {
+    list-style-type: none;
+    padding: 20px 0;
+}
+
+.form-todos li::before { 
+    content: "\2610";
+    margin-right: 0.5em;
+    position: relative;
+    top: 1px;
+}
+
+.form-todos li {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.form-todos .todo-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-todos img {
+    display: inline;
+}
+
 .form-bottom {
     width: 100%;
     display: flex;
