@@ -95,6 +95,7 @@ h1 {
     border: none;
     border-radius: 5px;
     color: #fdfffe;
+    cursor: pointer;
 }
 
 .form-todos {
@@ -111,6 +112,7 @@ h1 {
     margin-right: 0.5em;
     position: relative;
     top: 1px;
+    cursor: pointer;
 }
 
 .form-todos li {
@@ -118,6 +120,12 @@ h1 {
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
+
+    background-color: #f3f1f4;
+    border: none;
+    border-radius: 5px;
+    padding-left: .5em;
+    margin: 0.5em 0;
 }
 
 .form-todos .todo-container {
@@ -130,10 +138,15 @@ h1 {
 
 .form-todos img {
     display: inline;
+    padding: 0.2em;
+    background-color: #f34235;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
 }
 
 .form-bottom {
     width: 100%;
+    padding-left: .5em;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -145,6 +158,7 @@ h1 {
     border: none;
     border-radius: 5px;
     color: #fdfffe;
+    cursor: pointer;
 }
 
 /* FOOTER */
