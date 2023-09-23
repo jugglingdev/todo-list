@@ -14,24 +14,30 @@
 
         <form class="todo-form">
             <div class="form-top">
-                <input type="text" placeholder="Add your new todo">
-                <button class="addTodo" type="submit">&#65291;</button>
+                <input class="todo-input" type="text" placeholder="Add your new todo">
+                <button class="add-todo" type="submit"><strong>&#65291;</strong></button>
             </div>
 
             <div class="form-todos">
-                <ul>
+                <ul class="todo-list">
                     <li class="todo-item">
-                        <div class="todo-container">
-                            <p>Something</p>
-                            <img src="./assets/trashcan-light.png" alt="trashcan icon" width="20px" height="20px">
+                        <div class="todo-entry">
+                            <p class="todo-text">Something</p>
+                            <img src="./assets/trashcan.png" alt="trashcan icon" width="52px" height="52px" class="delete-icon">
+                        </div>
+                    </li>
+                    <li class="todo-item">
+                        <div class="todo-entry">
+                            <p class="todo-text">Something</p>
+                            <img src="./assets/trashcan.png" alt="trashcan icon" width="52px" height="52px" class="delete-icon hide-delete">
                         </div>
                     </li>
                 </ul>
             </div>
 
             <div class="form-bottom">
-                <p>You have <span class="task-count">0</span> pending tasks</p>
-                <button class="clearAll">Clear All</button>
+                <p>You have <span class="todo-count">0</span> pending tasks</p>
+                <button class="clear-all">Clear All</button>
             </div>
         </form>
 
