@@ -9,49 +9,51 @@
     <script src="./scripts/app.js" defer></script>
 </head>
 <body>
-    <main class="todo-list-container">
-        <h1>Todo App</h1>
-
-        <form class="todo-form">
-            <div class="form-top">
-                <input class="todo-input" type="text" placeholder="Add your new todo">
-                <button class="add-todo" type="submit"><strong>&#65291;</strong></button>
-            </div>
-
-            <div class="form-todos">
-                <ul class="todo-list">
-                    <li class="todo-item">
-                        <div class="todo-entry">
-                            <p class="todo-text">Something</p>
-                            <img src="./assets/trashcan.png" alt="trashcan icon" width="52px" height="52px" class="delete-icon">
-                        </div>
-                    </li>
-                    <li class="todo-item">
-                        <div class="todo-entry">
-                            <p class="todo-text">Something</p>
-                            <img src="./assets/trashcan.png" alt="trashcan icon" width="52px" height="52px" class="delete-icon hide-delete">
-                        </div>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="form-bottom">
-                <p>You have <span class="todo-count">0</span> pending tasks</p>
-                <button class="clear-all">Clear All</button>
-            </div>
-        </form>
-
-    </main>
-
-    <footer>
-        <p class="center">Trashcan icon created by 
-            <a href="https://www.flaticon.com/free-icons/miscellaneous" title="miscellaneous icons">kliwir art</a>
-        </p>
-        <p class="center">Copyright &copy; 
-            <script>document.write(new Date().getFullYear())</script> 
-            <a href="https://github.com/jugglingdev/" target="_blank">jugglingdev <img src="./assets/github-mark/github-mark.svg" alt="GitHub social icon"></a>
-        </p>
-    </footer>
+    <div class="page-wrapper">
+        <main class="todo-list-container">
+            <h1>Todo App</h1>
+    
+            <form class="todo-form">
+                <div class="form-top">
+                    <input class="todo-input" type="text" placeholder="Add your new todo">
+                    <button class="add-todo" type="submit"><strong>&#65291;</strong></button>
+                </div>
+    
+                <div class="form-todos">
+                    <ul class="todo-list">
+                        <li class="todo-item">
+                            <div class="todo-entry">
+                                <p class="todo-text">Something</p>
+                                <img src="./assets/trashcan.png" alt="trashcan icon" width="52px" height="52px" class="delete-icon">
+                            </div>
+                        </li>
+                        <li class="todo-item">
+                            <div class="todo-entry">
+                                <p class="todo-text">Something</p>
+                                <img src="./assets/trashcan.png" alt="trashcan icon" width="52px" height="52px" class="delete-icon hide-delete">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+    
+                <div class="form-bottom">
+                    <p>You have <span class="todo-count">0</span> pending tasks</p>
+                    <button class="clear-all">Clear All</button>
+                </div>
+            </form>
+    
+        </main>
+    
+        <footer>
+            <p class="center">Trashcan icon created by 
+                <a href="https://www.flaticon.com/free-icons/miscellaneous" title="miscellaneous icons">kliwir art</a>
+            </p>
+            <p class="center">Copyright &copy; 
+                <script>document.write(new Date().getFullYear())</script> 
+                <a href="https://github.com/jugglingdev/" target="_blank">jugglingdev <img src="./assets/github-mark/github-mark.svg" alt="GitHub social icon"></a>
+            </p>
+        </footer>
+    </div>
     
 </body>
 </html>

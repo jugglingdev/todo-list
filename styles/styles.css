@@ -44,8 +44,16 @@ body {
     color: #333;
 }
 
+.page-wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .todo-list-container {
-    margin: 0 auto;
+    margin: 30px auto;
     padding: 30px;
     background-color: #fdfffe;
     max-width: 450px;
@@ -173,8 +181,6 @@ h1 {
 /* FOOTER */
 
 footer {
-    position: fixed;
-    bottom: 0;
     width: 100%;
     margin: 0 auto;
     padding: 1rem;
